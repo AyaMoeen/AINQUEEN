@@ -1,0 +1,10 @@
+.button{
+-fx-background-color: #74254d;
+-fx-background-radius: 20 20 20 20;
+
+}
+.button: hover{
+-fx-background-color:#c23d80;
+-fx-background-radius: 20 20 20 20;
+
+}

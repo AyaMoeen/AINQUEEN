@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myprojectai.HelloController">
+   <children>
+      <ImageView fx:id="image1" fitHeight="474.0" fitWidth="653.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ayy.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="422.0" layoutY="181.0" text="Select Search Algrithm :">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.09090908774823854">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4736842215061188" green="0.07646198570728302" blue="0.04035087674856186" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5368421077728271" green="0.36584794521331787" blue="0.48839375376701355" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="hill" layoutX="437.0" layoutY="218.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" stylesheets="@test.css" text="Hill Climbing" textFill="WHITE" />
+      <Button fx:id="simulated" layoutX="437.0" layoutY="267.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" stylesheets="@test.css" text="Simulated Annealing" textFill="WHITE" />
+      <ImageView fitHeight="222.0" fitWidth="294.0" layoutX="360.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AE.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="choicebox" layoutX="437.0" layoutY="323.0" prefHeight="26.0" prefWidth="126.0" style="-fx-background-radius: 100; -fx-background-color: #ffffff; -fx-bordr-radius: 200; -fx-border-width: 2;" />
+   </children>
+</AnchorPane>
